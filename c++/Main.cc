@@ -12,7 +12,7 @@ int main() {
     B b, b2;
     C c;
 
-    c = y.foo(c);
+    b = y.foo(a);
     
     printf("Compilado con éxito\n");
     return 0;

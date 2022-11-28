@@ -10,10 +10,9 @@
 class Y : public X{
 
 public:
-    C foo(C b) {
-        // al parecer c++ no acepta la covarianza con retorno
-        C c2;
-        return c2;
+    B foo(A b) {
+        B b2;
+        return b2;
     }
 };
 
