@@ -1,5 +1,5 @@
 package jav;
 
 public interface A{
-    void m_a();
+    // void m_a();
 }
