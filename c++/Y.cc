@@ -10,7 +10,8 @@
 class Y : public X{
 
 public:
-    B foo(B b) {
+    B foo(C b) {
+        // lo permite ya que C, es una clase hija de B
         return b;
     }
 };
