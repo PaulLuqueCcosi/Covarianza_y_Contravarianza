@@ -10,8 +10,7 @@
 class Y : public X{
 
 public:
-    B foo(B b)
-    {
+    B foo(B b) {
         return b;
     }
 };

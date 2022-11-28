@@ -8,7 +8,7 @@
 
 class X {
     public:
-    B foo(B b){
+    virtual B foo(B b){
         return b;
     }
 

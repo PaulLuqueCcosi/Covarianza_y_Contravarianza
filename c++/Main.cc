@@ -6,9 +6,12 @@
 
 int main() {
     X x;
+    Y y;
+    A a;
     B b, b2;
+    C c;
 
-    b2 = x.foo(b);
+    b2 = y.foo(c);
     
     return 0;
 }
