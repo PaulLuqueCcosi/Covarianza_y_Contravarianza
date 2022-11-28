@@ -3,9 +3,9 @@ package jav;
 public class Y extends X {
 
     @Override
-    public A foo(B b) {
+    public B foo(A b) {
 
-        return new A() {
+        return new B() {
         };
     }
 
