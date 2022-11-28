@@ -10,9 +10,9 @@
 class Y : public X{
 
 public:
-    B foo(A b) {
-        B b2;
-        return b2;
+    A foo(B b) {
+        A a2;
+        return a2;
     }
 };
 
