@@ -3,7 +3,7 @@ package jav;
 public class Y extends X {
 
     @Override
-    public B foo(C b) {
+    public B foo(B b) {
 
         return new C() {
         };
