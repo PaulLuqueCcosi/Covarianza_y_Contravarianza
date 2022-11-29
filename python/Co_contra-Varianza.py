@@ -53,11 +53,15 @@ class Y(X):
     def foo(self, b):                                                                                           
         b.f_a()
         b.f_b()
-        return b
+
+        b2 = B_impl()
+        return b2
 
 if __name__ == "__main__":
     a = A_impl()
     b = B_impl()
     c = C_impl()
     y = Y()
-    y.foo(b)
+
+    b2 = y.foo(c)
+    print(b2.__class__.__name__)
