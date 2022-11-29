@@ -52,10 +52,10 @@ class Y(X):
     
     def foo(self, b):                                                                                           
         b.f_a()
-        b.f_b()
+        # b.f_b()
 
-        c2 = C_impl()
-        return c2
+        b2 = B_impl()
+        return b2
 
 if __name__ == "__main__":
     a = A_impl()
@@ -63,5 +63,5 @@ if __name__ == "__main__":
     c = C_impl()
     y = Y()
 
-    retorna = y.foo(b)
+    retorna = y.foo(a)
     print("Nombre de la clase: ", retorna.__class__.__name__)
